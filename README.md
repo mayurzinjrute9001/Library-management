@@ -37,7 +37,9 @@ source venv/bin/activate
 ---
 
 3. 
-
+pip install pymysql
+"import pymysql
+pymysql.install_as_MySQLdb() and this in init.py after installing pymysql"
 pip install django mysqlclient
 
 ---
